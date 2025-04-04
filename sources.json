@@ -1,26 +1,44 @@
 {
-  "name": "My Example Source",
-  "tintColor": "#F54F32",
+  "name": "Spotube Source",
+  "subtitle": "Source for the Spotube App",
+  "description": "Diese Quelle enthält die Spotube App – einen Open-Source Spotify-Client, der ohne Premium funktioniert.",
+  "iconURL": "https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-icon.png",
+  "headerURL": "https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-header.png",
+  "website": "https://spotube.krtirtho.dev",
+  "tintColor": "#1ED760",
   "featuredApps": [
-    "com.spotube.app",
+    "com.krtirtho.spotube"
   ],
-  "apps": [],
-  "news": [],
-}
-"apps": [
+  "apps": [
     {
-        "name": "Spotube",
-        "bundleIdentifier": "com.spotube.app",
-        "marketplaceID": "12345678",
-        "developerName": "not Simon",
-        "subtitle": "An awesome app.",
-        "localizedDescription": "This is an awesome app only available on AltStore.",
-        "iconURL": "https://github.com/TheDeltaVoid/TheDeltaVoid.github.io/blob/e4a18fa31aa54c62b16965c917cd42c8e2578920/IMG_0807.webp",
-        "tintColor": "#F54F32",
-        "category": "utilities",
-        "screenshots": [],
-        "versions": [],
-        "appPermissions": {},
-        "patreon": {},
-    },
-]
+      "name": "Spotube",
+      "bundleIdentifier": "com.krtirtho.spotube",
+      "developerName": "KRTirtho",
+      "subtitle": "Open Source Spotify Client",
+      "localizedDescription": "Spotube ist ein Open-Source, plattformübergreifender Spotify-Client, der ohne Spotify Premium auskommt.",
+      "iconURL": "https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-icon.png",
+      "tintColor": "#1ED760",
+      "category": "utilities",
+      "screenshots": [
+        "https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-screenshot1.png",
+        "https://raw.githubusercontent.com/KRTirtho/spotube/master/assets/spotube-screenshot2.png"
+      ],
+      "versions": [
+        {
+          "version": "3.9.0",
+          "buildVersion": "390",
+          "date": "2025-03-16",
+          "localizedDescription": "Neueste Version von Spotube mit Verbesserungen und Fehlerbehebungen.",
+          "downloadURL": "https://sourceforge.net/projects/spotube.mirror/files/v3.9.0/Spotube-iOS.ipa/download",
+          "size": 50000000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
